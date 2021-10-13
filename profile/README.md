@@ -12,7 +12,7 @@ env:
   # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }} 
   # Over here, we use a PAT instead to authenticate workflow file changes.
   WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
-  # Optional, defaults to main if not provided (Note: passing empty string does not default to "main")
+  # Required, is usually "master" or "main"
   UPSTREAM_BRANCH: "master"
   # Optional, defaults to UPSTREAM_BRANCH
   DOWNSTREAM_BRANCH: ""
