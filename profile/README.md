@@ -1,4 +1,4 @@
-## Hi there 👋. This orginatision is created to mirror open-sourced tools, and maintain the histories in case where projects were made unavailable.
+## Hi there 👋. This organisation is created to mirror open-sourced tools, and maintain the histories in case where projects were made unavailable.
 
 Sync with this template below, replace any fields in `env` to your use cases.
 
