@@ -24,7 +24,7 @@ env:
 # This runs every day on 1801 UTC
 on:
   # Or on push, if for mirror it runs on workflow setup and changes
-  push:
+  # push:
   schedule:
     - cron: '1 18 * * *'
   # Allows manual workflow run (must in default branch to work)
