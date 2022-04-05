@@ -36,6 +36,8 @@ jobs:
     steps:
       - name: GitHub Sync to Upstream Repository
         uses: dabreadman/sync-upstream-repo@v1.2.0.b
+        # use v1.1.0.b if you do not want to spawn persistent log file
+        # that is to prevent action from disabling after 6 months
         with: 
           upstream_repo: ${{ env.UPSTREAM_URL }}
           upstream_branch: ${{ env.UPSTREAM_BRANCH }}
